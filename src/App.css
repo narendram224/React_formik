@@ -1,0 +1,58 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+/* label{
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+  color: #a044ff;
+}
+input[type="text"],input[type="email"],input[type="password"],textarea{
+  display: block;
+  width:400px;
+  padding: 8px 12px;
+  font-size:14px;
+  line-height: 1.42;
+  color: #555;
+  background-color:#fff;
+  background-image:none;
+  border: 1px solid #6a3093;
+  border-radius:4px;
+  outline: #4e2874;
+  margin-bottom: 20px;
+} */
+div{
+  text-align:center;
+}
+button{
+  border: none;
+    color: white;
+    font-size: 21px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 150px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #6a3093, #a044ff);
+    /* display:flex; */
+    /* align-items:center;
+    justify-content:center; */
+}
+h1{
+  text-transform: uppercase;
+  text-decoration:underline;
+  background: -webkit-linear-gradient(#6a3093, #a044ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+
+}
+.Form{
+  background: #f7efff;
+  box-shadow: 1px 6px 12px 1px #e8e3e3;
+  padding: 20px;
+  margin-top: 20px;
+}
+.error{
+  color: rgb(231, 64, 64);
+}
